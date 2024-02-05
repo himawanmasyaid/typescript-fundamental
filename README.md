@@ -38,3 +38,25 @@ ubah "module" dari "commonjs" menjadi "ES6"
 
 dokumentasi tsc
 https://www.typescriptlang.org/tsconfig
+
+# Using Babel
+To use Babel, install required dependencies:
+
+doc : https://jestjs.io/docs/getting-started#using-babel
+
+run code in terminal
+npm install --save-dev babel-jest @babel/core @babel/preset-env
+
+Configure Babel to target your current version of Node by creating a babel.config.js file in the root of your project:
+
+babel.config.json 
+
+tambahkan :
+
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-typescript",
+    ]
+  }
+
