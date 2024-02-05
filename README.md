@@ -60,3 +60,12 @@ tambahkan :
     ]
   }
 
+
+## Via ts-jes
+
+ts-jest is a TypeScript preprocessor with source map support for Jest that lets you use Jest to test projects written in TypeScript.
+
+run code in terminal
+npm install --save-dev ts-jest
+
+npm install --save-dev @jest/globals
