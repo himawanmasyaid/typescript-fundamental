@@ -29,4 +29,12 @@ alasan kenapa install typescript di development bukan di dependency biasa
 karena  type script digunakan di development, saat di compile 
 typescript akan jadi javascript
 
+## Setup typescript project 
 
+run code in terminal
+npx tsc --init
+semua konfigurasi akan di buat di file tsconfig.json
+ubah "module" dari "commonjs" menjadi "ES6"
+
+dokumentasi tsc
+https://www.typescriptlang.org/tsconfig
