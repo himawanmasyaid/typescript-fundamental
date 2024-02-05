@@ -18,3 +18,15 @@ npm install --save-dev babel-jest @babel/preset-env
 documentation : https://babeljs.io/setup#installation
 
 
+# Setup TypeScript Project
+
+## menambah type script
+
+run code in terminal
+npm install --save-dev typescript
+
+alasan kenapa install typescript di development bukan di dependency biasa
+karena  type script digunakan di development, saat di compile 
+typescript akan jadi javascript
+
+
