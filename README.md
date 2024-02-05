@@ -69,3 +69,11 @@ run code in terminal
 npm install --save-dev ts-jest
 
 npm install --save-dev @jest/globals
+
+
+## RUNNING UNIT TEST
+
+# menjalankan semua unit test
+run code in terminal
+npm test
+
